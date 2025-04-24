@@ -1,0 +1,375 @@
+/*-----------------------------------------*/
+/*This CSS Style is premium type of project*/
+/*Only they have permission to use,whose are permitted*/
+/*Permission: YES*/
+/*Owner Name: Marekstachura*/
+/*Version: v4.0.0*/
+/*Developer: MH Miyazi*/
+/*-----------------------------------------*/
+/*Masthead/Welcome START*/
+.masthead h1{
+	font-size: 3rem !important;
+}
+@media (min-width: 1000px){
+.masthead h1{
+    font-size: 4rem !important;
+    padding-top: 1.1em !important;
+}
+}
+/*Masthead/Welcome END*/
+/*Home Section START*/
+.has-box-shadow{
+box-shadow: 0px 0px 16px 3px rgb(0 0 0 / 10%) !important;
+}
+.home-img{
+	width: 200px;
+}
+.f-s-3-rem{
+	font-size: 3rem !important;
+}
+.f-w-700{
+	font-weight: 700 !important;
+}
+.hr{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+ 	border: 1px solid #000000;
+}
+/*Home Section END*/
+/*About Section START*/
+.about-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 60%;
+}
+/*About Section END*/
+/*Work/Portfolio START*/
+/*Work/Portfolio END*/
+/*MapView START*/
+.iframe-map{
+	width: 100%;
+	height: 350px;
+}
+@media (min-width: 991px) {
+  .iframe-map{
+	width: 100%;
+	height: 600px;
+}
+}
+
+/*MapView END*/
+/*Contact START*/
+#contact a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*Contact END*/
+
+/*footer START*/
+.impressum-a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*footer END*/
+
+
+
+/*Pages Style START*/
+
+/*Abklärung Style START*/
+.nav-spacer{
+	height: 130px !important;
+}
+hr{
+	width: 30px;
+    height: 3px !important;
+    background: #000;
+    border: 0;
+    margin: 0 auto 40px auto
+}
+
+#sect1 h2{
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-top: 2%;
+	font-weight: 500;
+	color: #000;
+}
+#sect1 img{
+	display: block;
+	width: 100%;
+	max-width: 612px;
+	margin-left: auto;
+	margin-right: auto;
+    /*height: 408px;*/
+}
+#sect2{
+	padding-left: 0;
+	margin-top: 20px;
+}
+@media (min-width: 991px) {
+  #sect2 p{
+  	margin-top: 20px;
+	/*padding-left: 15% !important;*/
+	text-align: justify !important;
+}
+}
+#sect2 p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.4rem;
+	/*padding: .5em 0;*/
+	line-height: initial;
+	text-align: left;
+	color: #494949;
+	line-break: auto;
+/*	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;*/
+}
+#sect2 h2{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 2%;
+	color: #000;
+}
+/*Abklärung Style END*/
+
+/*Pages Style END*/
+
+/* Custom Styles for Luxury Haven Hotel */
+
+/* Hero Section */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+}
+
+/* Room Cards */
+.room-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.room-card img {
+    transition: transform 0.5s ease;
+}
+
+.room-card:hover img {
+    transform: scale(1.1);
+}
+
+.room-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 20px;
+    color: white;
+}
+
+/* Amenities Section */
+.amenity-icon {
+    width: 80px;
+    height: 80px;
+    background-color: var(--light-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    transition: all 0.3s ease;
+}
+
+.amenity-icon:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.amenity-icon i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.amenity-icon:hover i {
+    color: white;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* Testimonials */
+.testimonial-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 15px;
+}
+
+/* Special Offers */
+.offer-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Gallery */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.gallery-item img {
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+/* Footer */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--secondary-color);
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .booking-form {
+        margin-top: 30px;
+    }
+    
+    .testimonial-card {
+        margin: 10px 0;
+    }
+    
+    .gallery-item {
+        margin-bottom: 15px;
+    }
+}
+
+/* Animations */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Loading Animation */
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--light-bg);
+    border-top: 4px solid var(--secondary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
